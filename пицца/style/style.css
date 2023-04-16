@@ -1,0 +1,390 @@
+@import 'fonts.css';
+
+
+/* Root start */
+
+:root {
+    --m100:'Montserrat Thin';
+    --m300:'Montserrat Light';
+    --m400:'Montserrat Regular';
+    --m700:'Montserrat Bold';
+    --m900:'Montserrat Black';
+    --r100: 'Raleway Thin'; 
+    --r300: 'Raleway Light';
+    --r400: 'Raleway Regular';
+    --r700: 'Raleway Bold';
+    --r900:  'Raleway Black';
+    --gray:#a6a6a6;
+    --grey_text: #bdbdbd;
+    --green:#68bf3b;
+    --white:#ffffff;
+    --green_90:#e1f5d0;
+    --col-1: calc(100% / 12);
+    --col-2: calc(100% / 12 * 2);
+    --col-3: calc(100% / 12 * 3);
+    --col-4: calc(100% / 12 * 4);
+    --col-5: calc(100% / 12 * 5);
+    --col-6: calc(100% / 12 * 6);
+    --col-7: calc(100% / 12 * 7);
+    --col-8: calc(100% / 12 * 8);
+    --col-9: calc(100% / 12 * 9);
+    --col-10: calc(100% / 12 * 10);
+    --col-11: calc(100% / 12 * 11);
+    --col-12: calc(100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: var(--r400);
+}
+
+*::selection {
+    background: purple;
+    color: white;
+}
+
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-1 {
+    width: var(--col-1);
+    padding: 0 15px;
+}
+.col-2 {
+    width: var(--col-2);
+    padding: 0 15px;
+}
+.col-3 {
+    width: var(--col-3);
+    padding: 0 15px;
+}
+.col-4 {
+    width: var(--col-4);
+    padding: 0 15px;
+}
+.col-5 {
+    width: var(--col-5);
+    padding: 0 15px;
+}
+.col-6 {
+    width: var(--col-6);
+    padding: 0 15px;
+}
+.col-7 {
+    width: var(--col-7);
+    padding: 0 15px;
+}
+.col-8 {
+    width: var(--col-8);
+    padding: 0 15px;
+}
+.col-9 {
+    width: var(--col-9);
+    padding: 0 15px;
+}
+.col-10 {
+    width: var(--col-10);
+    padding: 0 15px;
+}
+.col-11 {
+    width: var(--col-11);
+    padding: 0 15px;
+}
+.col-12 {
+    width: var(--col-12);
+    padding: 0 15px;
+}
+
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+.align-items-start {
+    align-items: flex-start;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.mh-100 {
+    min-height: 100vh;
+}
+
+/* header start */
+/* ***************** */
+.header {
+    background: url(../img/header_bg.jpg) no-repeat center center/cover;
+    
+}
+.header__nav {
+    color: var(--white);
+    min-height: 110px;
+}
+
+.call__me {
+    background: var(--green);
+    font-size: 16px;
+    border-radius: 25px;
+    font-family: var(--m400);
+    color: var(--white);
+    padding: 18px 26px 18px 26px;
+    line-height: 12px;
+}
+
+.logo {
+    color: var(--white); 
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: var(--m700);
+}
+
+.nav__tel-numb {
+    margin-right: 20px;
+    font-size: 24px;
+    font-family: var(--m400);
+}
+
+.header__content {
+    color: var(--white);
+    min-height: 700px;
+}
+
+.header__content-comp {
+    font-size: 18px;
+    font-family: var(--m400);
+    text-transform: uppercase;
+}
+
+.header__content-pizza {
+    font-family:var(--m900) ;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.header__content-cost {
+    font-family: var(--m400);
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.header__content-menu {
+    background: var(--linear);
+    border-radius: 25px;
+    padding: 15px 40px 15px 40px;
+    color: var(--white);
+    font-size: 16px;
+    font-family: var(--m400);
+    width: max-content;
+    margin-top: 50px;
+}
+
+/* header end */
+/* *************** */
+
+/* Main Start */
+/* *************** */ 
+
+.main {
+    background: var(--white);
+
+}
+
+.main__content {
+    
+}
+
+.main__text {
+    margin-top: 130px;
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+.main__text-tech {
+    color: var(--green);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: var(--m700);
+}
+
+.main__text-pov {
+    font-family: var(--m400);
+    color: var(--grey_text);
+    max-width: 740px;
+    margin-top: 66px;
+}
+
+.main__text-pov2 {
+    font-family: var(--m400);
+    color: var(--grey_text);
+    max-width: 700px;
+}
+
+.main__content-img {
+    margin-top: 85px;
+}   
+
+.avtor {
+    color: var(--grey_text);
+    margin-top: 66px;
+}
+
+.avtor__podpis {
+    margin-left: 70px;
+}
+
+.menu {
+    color: var(--green_90);
+    text-transform: uppercase;
+    font-family: var(--m700);
+    font-size: 36px;
+    
+}
+
+.main__menu {
+    margin-top: 80px;
+
+}
+
+.menu__img {
+    
+}
+
+.combo {
+    font-size: 30px;
+    font-family:var(--m700) ;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 30px;
+}
+
+.menu__pizza {
+    margin-top: 50px;
+}
+
+.combo__text {
+    font-family: var(--m400);
+    color: var(--grey_text);
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.menu__text {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.price__num {
+    color: var(--gray);
+    font-size: 30px;
+    font-family: var(--m700);
+    margin-bottom: 35px;
+    margin-left: 40px;
+}
+
+.price__rup {
+    font-size: 18px;
+    font-family: var(--m300);
+    color: var(--grey_text);
+}
+
+.price__online {
+    background: var(--linear);
+    border-radius: 23px;
+    padding: 15px 40px 15px 40px;
+    color: var(--white);
+    font-size: 16px;
+    font-family: var(--m400);
+    
+}
+
+.price {
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+
+.menu__text-combo {
+    margin-left: 30px;
+}
+
+.main__footer {
+    margin-top: 150px;
+}
+
+.main__footer-img {
+    
+}
+
+.sitora {
+    font-family: var(--m700);
+    color: var(--gray);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sitora__text {
+    color: var(--grey_text);
+    font-family: var(--m400);
+    font-size: 14px;
+}
+
+.sloi_3 {
+    margin-left: 30px;
+    margin-right: 30px;
+}   
+
+.sloi_2 {
+    
+}
+
+.sloi_4 {
+
+}
+
+.main__footer-img-text {
+}
+
+
+
+
